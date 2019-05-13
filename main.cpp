@@ -1,4 +1,3 @@
-// CS 1337.003 Project 3 <mxn170130> <Mahimachand Nalluri>
 //============================================================================
 // Name        : Project3.cpp
 // Author      : 
@@ -13,10 +12,6 @@
 #include "resistorComponent.h"
 #include "batteryComponent.h"
 using namespace std;
-
-// Commentary, overloading, destructors?, syntax and formatting, meaningful variable names, function partitioning (esp for error validation), special error validation case 1234
-// Are we allowed to include extra member functions in the base and derived class header files? (getType)
-// try shortening the getComponentDescription functions if possible
 
 electronicComponent** addRecord(electronicComponent** componentRecords, int oldSize);
 void printComponentInformation(electronicComponent** componentRecords, int counter);
